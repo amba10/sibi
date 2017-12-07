@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+<link rel="stylesheet" href="css/style f.css">		
+<link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+	<div data-role="page" id="pageone" data-theme="f">
+		<div data-role="panel" id="myPanel" class="ui-panel ui-panel-f"> 
+		<img src="img/1.png" class="panelimg"/>
+			<ul data-role="listview" data-theme="b" data-inset="true">
+				<li data-icon="home"><a href="index.html" data-iconpos="right" >Beranda</a></li>
+				<li data-inset="true"><a href="sibi.html"  data-iconpos="right" >SIBI</a></li>
+				<li data-role="collapsible" data-iconpos="right" data-inset="false">
+					<h2>Kategori</h2>
+				<ul data-role="listview">
+					<li><a href="abjad.html" >Abjad</a></li>
+					<li><a href="bilangan.html">Bilangan</a></li>
+					<li><a href="kata benda.html">Kata Benda</a></li>
+					<li><a href="kata kerja.html" >Kata Kerja</a></li>
+					<li><a href="kata sifat.html" >Kata Sifat</a></li>
+					<li><a href="imbuhan awalan.html" >Imbuhan Awalan</a></li>
+					<li><a href="imbuhan akhiran.html" >Imbuhan Akhiran</a></li>
+				</ul>
+				</li>
+				<li><a href="petunjuk.html"  data-iconpos="right" >Petunjuk</a></li>
+				<li><a href="tentang.html" data-iconpos="right" >Tentang</a></li>
+			</ul>  
+		</div> 
+		<div data-role="header" data-theme="f" >
+			<a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-shadow ui-btn-icon-left ui-icon-bars ui-btn-icon-notext">Open Panel</a>
+			<p class="okta">Imbuhan Akhiran</p>
+			<a href="javascript:history.go(-1)" class="ui-btn ui-btn-inline ui-corner-all ui-shadow ui-btn-icon-left ui-icon-back ui-btn-icon-notext">back</a>
+		</div>
+  <div data-role="main" class="ui-content ">
+	<ul data-role="listview"  data-inset="true" data-theme="a">
+
+    <li><a href="#1" data-rel="popup">An</a></li>
+		<div data-role="popup" data-theme="a" data-position-to="window" id="1" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/imbuhan akhiran/an.mp4" type="video/mp4">
+			</video>
+		</div>
+    <li><a href="#2" data-rel="popup">I</a></li>
+		<div data-role="popup" data-theme="a" data-position-to="window" id="2" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/imbuhan akhiran/i.mp4" type="video/mp4">
+			</video>
+		</div>
+    <li><a href="#3" data-rel="popup">Kan</a></li>
+		<div data-role="popup" data-theme="a" data-position-to="window" id="3" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/imbuhan akhiran/kan.mp4" type="video/mp4">
+			</video>
+		</div>
+	</ul>
+	</div>
+	</div>
+	</body>
+	</html>

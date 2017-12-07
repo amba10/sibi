@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+<link rel="stylesheet" href="css/style f.css">		
+<link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+	<div data-role="page" id="pageone" data-theme="f">
+		<div data-role="panel" id="myPanel" class="ui-panel ui-panel-f"> 
+		<img src="img/1.png" class="panelimg"/>
+			<ul data-role="listview" data-theme="b" data-inset="true">
+				<li data-icon="home"><a href="index.html" data-iconpos="right" >Beranda</a></li>
+				<li data-inset="true"><a href="sibi.html"  data-iconpos="right" >SIBI</a></li>
+				<li data-role="collapsible" data-iconpos="right" data-inset="false">
+					<h2>Kategori</h2>
+				<ul data-role="listview">
+					<li><a href="abjad.html" >Abjad</a></li>
+					<li><a href="bilangan.html">Bilangan</a></li>
+					<li><a href="kata benda.html">Kata Benda</a></li>
+					<li><a href="kata kerja.html" >Kata Kerja</a></li>
+					<li><a href="kata sifat.html" >Kata Sifat</a></li>
+					<li><a href="imbuhan awalan.html" >Imbuhan Awalan</a></li>
+					<li><a href="imbuhan akhiran.html" >Imbuhan Akhiran</a></li>
+				</ul>
+				</li>
+				<li><a href="petunjuk.html"  data-iconpos="right" >Petunjuk</a></li>
+				<li><a href="tentang.html" data-iconpos="right" >Tentang</a></li>
+			</ul>  
+		</div> 
+		<div data-role="header" data-theme="f" >
+			<a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-shadow ui-btn-icon-left ui-icon-bars ui-btn-icon-notext">Open Panel</a>
+			<p class="okta">Kata Benda</p>
+			<a href="javascript:history.go(-1)" class="ui-btn ui-btn-inline ui-corner-all ui-shadow ui-btn-icon-left ui-icon-back ui-btn-icon-notext">back</a>
+		</div>
+  <div data-role="main" class="ui-content ">
+<ul data-role="listview" data-filter="true" data-filter-placeholder="cari kata..." data-theme="a" data-inset="true">
+    <li><a href="#0001" data-rel="popup" >Abang</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="0001" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/abang_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000163" data-rel="popup" >Adik</a></li>
+		<div data-role="popup" data-position-to="window" data-transition="fade" data-theme="a" id="000163" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/adik_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#0003" data-rel="popup"  >Agustus</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="0003" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/agustus_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#0004" data-rel="popup"  >Alis</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="0004" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/alis_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#0005" data-rel="popup"  >Almari</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="0005" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/almari_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000131" data-rel="popup"  >Amplop</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000131" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/amplop_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#0006" data-rel="popup"  >Anak</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="0006" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/anak_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#0007" data-rel="popup"  >Angsa</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="0007" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/angsa_sl.mp4" type="video/mp4">
+			</video>
+		</div>		
+	<li><a href="#0008" data-rel="popup"  >Apotek</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="0008" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/apotek_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#0009" data-rel="popup"  >April</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="0009" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/april_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00010" data-rel="popup"  >Atap</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00010" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/atap_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00011" data-rel="popup"  >Ayah</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00011" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/ayah_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00012" data-rel="popup"  >Ayam</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00012" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/ayam_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00013" data-rel="popup"  >Badan</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00013" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/badan_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000132" data-rel="popup"  >Bahagia</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000132" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/bahagia_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000133" data-rel="popup"  >Bank</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000133" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/bank_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00014" data-rel="popup"  >Bantal</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00014" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/bantal_sl.mp4" type="video/mp4">
+			</video>
+		</div>	
+	<li><a href="#00015" data-rel="popup"  >Batu</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00015" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/batu_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00016" data-rel="popup"  >Bayi</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00016" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/bayi_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00017" data-rel="popup">Bendera</li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00017" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/bendera_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00018" data-rel="popup"  >Besok</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00018" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/besok_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00019" data-rel="popup"  >Bibi</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00019" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/bibi_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+			<li><a href="#00020" data-rel="popup"  >Bibir</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00020" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/bibir_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00021" data-rel="popup"  >Binatang</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00021" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/binatang_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000136" data-rel="popup"  >Biru</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000136" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/biru_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00022" data-rel="popup"  >Bola</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00022" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/bola_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00023" data-rel="popup"  >Buku</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00023" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/buku_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00028" data-rel="popup"  >Bulan</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00028" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/bulan_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00029" data-rel="popup"  >Bumi</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00029" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/bumi_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00030" data-rel="popup"  >Bupati</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00030" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/bupati_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00031" data-rel="popup"  >Camat</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00031" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/camat_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000138" data-rel="popup"  >Cita</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000138" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/cita_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000139" data-rel="popup"  >Cokelat</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000139" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/cokelat_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00032" data-rel="popup"  >Cucu</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00032" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/cucu_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00033" data-rel="popup"  >Darah</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00033" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/darah_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000140" data-rel="popup"  >Derita</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000140" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/derita_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00034" data-rel="popup"  >Desember</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00034" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/desember_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00035" data-rel="popup"  >Dokter</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00035" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/dokter_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00037" data-rel="popup"  >Februari</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00037" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/februari_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00038" data-rel="popup"  >Gambar</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00038" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/gambar_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00039" data-rel="popup"  >Gelas</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00039" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/gelas_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00040" data-rel="popup"  >Genteng</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00040" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/genteng_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00041" data-rel="popup"  >Guru</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00041" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/guru_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000141" data-rel="popup"  >Hakim</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000141" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/hakim_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00042" data-rel="popup"  >Hari</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00042" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/hari_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000142" data-rel="popup"  >Hati</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000142" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/hati_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00043" data-rel="popup"  >Hidung</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00043" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/hidung_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000143" data-rel="popup"  >Hijau</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000143" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/hijau_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000144" data-rel="popup"  >Hitam</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000144" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/hitam_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00044" data-rel="popup"  >Ibu</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00044" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/ibu_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00045" data-rel="popup"  >Idul Fitri</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00045" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/idul_fitri_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00046" data-rel="popup"  >Ikan</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00046" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/ikan_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00047" data-rel="popup"  >Jam</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00047" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/jam_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00048" data-rel="popup"  >Januari</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00048" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/januari_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00049" data-rel="popup"  >Jari</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00049" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/jari_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00050" data-rel="popup"  >Juli</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00050" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/juli_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00051" data-rel="popup"  >Jumat</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00051" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/jumat_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00052" data-rel="popup"  >Juni</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00052" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/juni_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00053" data-rel="popup"  >Kaki</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00053" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/kaki_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00054" data-rel="popup"  >Kamis</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00054" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/kamis_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00055" data-rel="popup"  >Keluarga</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00055" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/keluarga_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00056" data-rel="popup"  >Kemarin</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00056" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/kemarin_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00057" data-rel="popup"  >Kepala</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00057" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/kepala_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00058" data-rel="popup"  >Kertas</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00058" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/kertas_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00059" data-rel="popup"  >koran</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00059" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/koran_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000147" data-rel="popup"  >Kotak</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000147" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/kotak_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00060" data-rel="popup"  >Kucing</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00060" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/kucing_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00061" data-rel="popup"  >Kulit</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00061" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/kulit_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00062" data-rel="popup"  >Kunci</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00062" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/kunci_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000148" data-rel="popup"  >Kuning</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000148" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/kuning_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00063" data-rel="popup"  >Kursi</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00063" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/kursi_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00064" data-rel="popup"  >Lampu</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00064" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/lampu_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00065" data-rel="popup"  >Langit</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00065" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/langit_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00066" data-rel="popup"  >Lantai</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00066" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/lantai_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00067" data-rel="popup"  >Laut</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00067" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/laut_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00068" data-rel="popup"  >Lebaran</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00068" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/lebaran_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00069" data-rel="popup"  >Lengan</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00069" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/lengan_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00070" data-rel="popup"  >Lurah</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00070" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/lurah_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00071" data-rel="popup"  >Lusa</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00071" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/lusa_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00072" data-rel="popup"  >Malam</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00072" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/malam_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00073" data-rel="popup"  >Maret</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00073" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/maret_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00074" data-rel="popup"  >Mata</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00074" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/mata_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00075" data-rel="popup"  >Matahari</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00075" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/matahari_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00076" data-rel="popup"  >Mei</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00076" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/mei_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00077" data-rel="popup"  >Menteri</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00077" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/menteri_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00078" data-rel="popup"  >Meja</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00078" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/meja_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00079" data-rel="popup"  >Menit</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00079" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/menit_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000150" data-rel="popup"  >Milik</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000150" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/milik_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00080" data-rel="popup"  >Minggu</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00080" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/minggu_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00081" data-rel="popup"  >Mistar</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00081" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/mistar_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00082" data-rel="popup"  >Montir</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00082" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/montir_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00083" data-rel="popup"  >Mulut</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00083" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/mulut_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000151" data-rel="popup"  >Musibah</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000151" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/musibah_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00084" data-rel="popup"  >Nelayan</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00084" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/nelayan_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00085" data-rel="popup"  >November</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00085" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/nopember_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00086" data-rel="popup"  >Obat</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00086" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/obat_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00087" data-rel="popup"  >Oktober</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00087" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/oktober_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00088" data-rel="popup"  >Pagi</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00088" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/pagi_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00089" data-rel="popup"  >Paman</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00089" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/paman_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00090" data-rel="popup"  >Pegawai</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00090" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/pegawai_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00091" data-rel="popup"  >Pensil</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00091" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/pensil_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00092" data-rel="popup"  >Perawat</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00092" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/perawat_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00093" data-rel="popup"  >Perut</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00093" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/perut_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00094" data-rel="popup"  >Petir</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00094" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/petir_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00095" data-rel="popup"  >Pilot</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00095" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/pilot_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00096" data-rel="popup"  >Pintu</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00096" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/pintu_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00097" data-rel="popup"  >Piring</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00097" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/piring_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00098" data-rel="popup"  >Pohon</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00098" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/pohon_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00099" data-rel="popup"  >Polisi</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00099" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/polisi_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000100" data-rel="popup"  >Presiden</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000100" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/presiden_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000101" data-rel="popup"  >Pulpen</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a"id="000101" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/pulpen_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000153" data-rel="popup"  >Putih</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000153" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/putih_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000102" data-rel="popup"  >Putra</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000102" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/putra_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000103" data-rel="popup"  >Rabu</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000103" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/rabu_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000104" data-rel="popup"  >Rambut</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000104" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/rambut_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000156" data-rel="popup"  >Rasa</a></li>
+		<div data-role="popup" data-position-to="window"  data-theme="a" id="000156" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/rasa_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000105" data-rel="popup"  >Rumah</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000105" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/rumah_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000106" data-rel="popup"  >Rumput</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000106" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/rumput_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000107" data-rel="popup"  >Sabtu</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000107" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/sabtu_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000108" data-rel="popup"  >Sapu</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000108" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/sapu_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000109" data-rel="popup"  >Saudara</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000109" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/saudara_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000110" data-rel="popup"  >Sekolah</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000110" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/sekolah_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000111" data-rel="popup"  >Selasa</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000111" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/selasa_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000112" data-rel="popup"  >Sendok</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000112" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/sendok_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#00113" data-rel="popup"  >Senin</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="00113" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/senin_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000114" data-rel="popup"  >September</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000114" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/september_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000115" data-rel="popup"  >Seragam</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000115" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/seragam_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000159" data-rel="popup"  >Siku</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000159" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/siku_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000116" data-rel="popup"  >Taman</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000116" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/taman_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000117" data-rel="popup"  >Tanah</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000117" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/tanah_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000118" data-rel="popup"  >Tani</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000118" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/tani_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000119" data-rel="popup"  >Tas</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000119" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/tas_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000120" data-rel="popup"  >Telepon</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000120" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/telepon_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000121" data-rel="popup"  >Televisi</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000121" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/televisi_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000122" data-rel="popup"  >Telinga</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000122" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/telinga_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000123" data-rel="popup"  >Teman</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000123" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/teman_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000160" data-rel="popup"  >Tentara</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000160" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/tentara_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000124" data-rel="popup"  >Tetangga</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000124" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/tetangga_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000125" data-rel="popup"  >Tukang</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000125" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/tukang_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000161" data-rel="popup"  >Tutup</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000161" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/tutup_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000126" data-rel="popup"  >Vitamin</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000126" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/vitamin_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000127" data-rel="popup"  >Waktu</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000127" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/waktu_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#000128" data-rel="popup"  >Wanita</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000128" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/wanita_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+		    <li><a href="#000129" data-rel="popup"  >Warna</a></li>
+		<div data-role="popup" data-position-to="window" data-theme="a" id="000129" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/kata benda/warna_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+</ul>
+</div>
+</div>
+</body>
+</html>
+

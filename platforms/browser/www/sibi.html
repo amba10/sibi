@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2016 Adobe sistems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+    <!-- Good default declaration:
+    * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+    * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+    * Disables use of eval() and inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+        * Enable inline JS: add 'unsafe-inline' to default-src
+        * Enable eval(): add 'unsafe-eval' to default-src
+    * Create your own at http://cspisawesome.com
+    -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
+<link rel="stylesheet" href="css/style f.css">		
+<link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+	<div data-role="page" id="pageone" data-theme="f">
+		<div data-role="panel" id="myPanel" class="ui-panel ui-panel-f"> 
+		<img src="img/1.png" class="panelimg"/>
+			<ul data-role="listview" data-theme="b" data-inset="true">
+				<li data-icon="home"><a href="index.html" data-iconpos="right" >Beranda</a></li>
+				<li data-inset="true"><a href="sibi.html"  data-iconpos="right" >SIBI</a></li>
+				<li data-role="collapsible" data-iconpos="right" data-inset="false">
+					<h2>Kategori</h2>
+				<ul data-role="listview">
+					<li><a href="abjad.html" >Abjad</a></li>
+					<li><a href="bilangan.html">Bilangan</a></li>
+					<li><a href="kata benda.html">Kata Benda</a></li>
+					<li><a href="kata kerja.html" >Kata Kerja</a></li>
+					<li><a href="kata sifat.html" >Kata Sifat</a></li>
+					<li><a href="imbuhan awalan.html" >Imbuhan Awalan</a></li>
+					<li><a href="imbuhan akhiran.html" >Imbuhan Akhiran</a></li>
+				</ul>
+				</li>
+				<li><a href="petunjuk.html"  data-iconpos="right" >Petunjuk</a></li>
+				<li><a href="tentang.html" data-iconpos="right" >Tentang</a></li>
+			</ul>  
+		</div> 
+		<div data-role="header" data-theme="f" >
+			<a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-shadow ui-btn-icon-left ui-icon-bars ui-btn-icon-notext">Open Panel</a>
+			<p class="okta">Sistem Isyarat Bahasa Indonesia</p>
+			<a href="javascript:history.go(-1)" class="ui-btn ui-btn-inline ui-corner-all ui-shadow ui-btn-icon-left ui-icon-back ui-btn-icon-notext">back</a>
+		</div> 
+  <div data-role="main" class="ui-content ">
+
+<div data-role="collapsibleset" data-theme="a" data-content-theme="a" data-mini="true">
+    <div data-role="collapsible" >
+        <h3>Sejarah Sistem Isyarat Bahasa Indonesia</h3>
+    <p class="text">Kebijakan Pemerintah yang digariskan di dalam Undang-Undang 
+	Republik Indonesia Nomor 2 Tahun 1989 tentang Sistem Pendidikan 
+	Nasional, antara lain dinyatakan bahwa: "Pendidikan Nasional bertujuan 
+	mencerdaskan kehidupan bangsa dan mengembangkan manusia seutuhnya, 
+	yaitu manusia yang beriman dan bertaqwa tehadap Tuhan Yang Maha Esa dan 
+	berbudi pekerti luhur, memiliki pengetahuan dan keterampilan, kesehatan 
+	jasmani dan rohani, kepribadian yang mantap dan mandiri serta rasa tanggung 
+	jawab kemasyarakatan dan kebangsaan. Kebijakan tersebut berlaku juga bagi 
+	warga negara yang menyandang kelainan termasuk kaum tunarungu. Oleh karena itu, 
+	dilakukan kegiatan penyusunan Sistem Isyarat Bahasa Indonesia.<br>
+	<p class="text">Dunia pendidikan tunarungu memprioritaskan pengembangan kemampuan berbicara 
+	dengan orang lain karena kaum tunarungu  adalah anggota masyarakat yang pada 
+	akhirnya nanti berkarya di sana, sehingga berkembanglah metode atau pendekatan oral. 
+	Namun, tidak dapat disangkal bahwa pendekatan ini memberikan hasil yang masih jauh 
+	dari yang diharapkan. Kemudian muncul pendekatan baru yang memanfaatkan segala media 
+	komunikasi tunarungu baik yang sudah lazim (berbicara, membaca ujaran, menulis, membaca, 
+	an mendengar dengan memanfaatkan sisa kemampuan menangkap getaran bunyi), maupun isyarat 
+	alamiah, abjad jari, dan isyarat yang dibakukan yang disebut Komunikasi Total.</p>
+	
+	<p class="text">Perintisan penerapan komunikasi total dimulai pada tahun 1978 oleh SLB-B Zinnia di 
+	Jakarta dan oleh SLB-B Karya Mulya di Surabaya pada tahun 1980. Pada waktu itu, SLB-B Zinnia 
+	masih menggunakan isyarat spontan, kemudian menggunakan isyarat dengan mengikuti <i>American Sign 
+	Language (ASL)</i> yang diperkenalkan oleh ibu Baron Sutadisastra. 
+	Begitu juga slb-b Karya Mulya mulai menggunakan isyarat ASL setelah diperkenlkan oleh ibu Baron Sutadisastra.</p>
+	
+	<p class="text">Sejak tahun 1982, kelompok kerja Pendidikan Luar Biasa (KKPLB) di Pusat Pengembangan Kurikulum dan 
+	Sarana Pendidikan Badan Penelitian dan Pengembangan Pendidikan dan Kebudayaan mulai berhasil menyelesaikan desain serta 
+	berbagai pedoman/ petunjuk sebagai panduan dalam menerapkan Komunikasi Total.  Pada tahun 1986, SLB-B Karya 
+	Mulya berhasil menyusun Pedoman Isyarat Bahasa Indonesia. Kemudian tahun 1990, muncul  Kamus Bahasa Isyarat 
+	Bahasa Indonesia yang disusun oleh SLB-B Zinnia. Pada tahun yang sama KKPLB menghasilkan kamus isyarat yang 
+	didasarkan pada isyarat yang berkembang di sebelas lokasi di Indonesia yang selanjutnya disebut Isyarat Lokal, 
+	menyerap isyarat yang berkembang di negara lain (isyarat serapan), isyarat-isyarat baru pada saat uji coba 
+	(isyarat temuan), dan isyarat tempaan yaitu isyarat yang ditempa oleh KKPLB sendiri. 
+	Pada tahun 1992, KKPLB melakukan uji coba selama satu tahun di lima SLB-B yang diakhiri dengan evaluasi.</p>
+	
+	<p class="text">Pada tahun 1993, Pusat Pengembangan Kurikulum dan Sarana Pendidikan Badan Penelitian dan Pengembangan 
+	Pendidikan dan Kebudayaan berupaya untuk memadukan hasil karya ketiga lembaga tersebut. Selanjutnya, 
+	Departemen Pendidikan dan Kebudayaan, dalam hal ini Direktor Pendidikan Dasar, Direktorat Jenderal 
+	Pendidikan Dasar dan Menengah, mengambil kebijaksanaan berupa pemaduan keempat hasil karya tersebut 
+	untuk dibakukan sebagai Sistem Isyarat Nasional. Kegiatan tersebut dilakukan bersama dengan Pusat 
+	Pengembangan Kurikulum dan Sarana Pendidikan, Badan Penelitian dan Pengembangan  Pendidikan dan 
+	Kebudayaan dengan memperhatikan hasil kerja sama instansi yamg telah mengembangkan perangkat isyarat tersebut. 
+	Kamus yang disusun itu berisi kata-kata yang dianggap sebagai kosa kata yang paling dasar yang seyogyanya 
+	diketahui oleh pemakai bahasa Indonesia yang berpendidikan Sekolah Dasar. Jadi, pembakuan Isyarat tersebut 
+	berasal dari  kamus Isyarat yang disusun oleh SLB-B Zinnia, 
+	KKPLB, SLB-B Mulya, dan Badan Penelitian dan Pengembangan Pendidikan dan Kebudayaan Departemen Pendidikan dan Kebudayaan.</p>
+    </div>
+    <div data-role="collapsible">
+        <h3>Pengertian SIBI</h3>
+    <p class="text">Sistem Isyarat Bahasa Indoensia yang dibakukan merupakan salah satu media yang membantu komunikasi sesama kaum tunarungu
+	di dalam masyarakat yang lebih luas. Wujudnya adalah tatanan yang sistematis tentang seperangkat isyarat jari, tangan, 
+	dan berbagai gerak untuk melambangkan kosa kata bahasa Indoensia. Di dalam upaya pembakuan tersebut, dipertimbangkan 
+	beberapa tolok ukur yang mencakup segi kemudahan, keindahan, dan ketepatan pengungkapan makna atau struktur kata, 
+	di samping beberapa segi yang lain. Secara rinci tolok ukur itu sebagai berikut:</p><p>
+<ol><li> Sistem isyarat harus secara akurat dan konsisten mewakili tata bahasa/ sintaksis bahasa Indonesia yang paling banyak digunakan 
+	oleh masyarakat Indonesia. Hal ini merupakan tujuan utama suatu sistem isyarat, berbeda dengan bahasa isyarat yang bisa memiliki tata 
+	bahasa dan aturan yang berbeda dengan bahasa Indonesia yang biasa berkembang di antara kaum tunarungu secara alami dan sampai sekarang belum diteliti.
+<li>Tiap isyarat yang disusun  harus memiliki satu kata dasar atau imbuhan, tanpa menutup kemungkinan adanya beberapa pengecualian bagi 
+dikembangkannya isyarat yang mewakili satu makna. Misalnya untuk kata gabung yang sudah demikian pada maknanya sehingga tidak diwakili 
+oleh dua isyarat. Kata-kata yang mempunyai arti ganda  memerlukan pertimbangan berdasarkan tiga prinsip yaitu ada/tidak persamaan arti, 
+ejaan atau ucapan, serta icma yang terdapat dalam Kamus Besar Bahasa Indonesia (KBBI). Bila dua dari ketiga prinsip tersebut sama dan hanya 
+satu icma untuk kata tersebut dalam KBBI maka isyarat yang sama harus digunakan. Jika prinsip ini tidak diikuti maka jumlah isyarat yang diperlukan 
+dalam sistem ini akan membingungkan tunarungu khususnya ketika membaca atau menulis.
+<li>Sistem isyarat yang disusun harus mencerminkan situasi sosial, budaya, dan ekologi bahasa Indonesia. Pemilihan isyarat perlu menghindari 
+adanya kemungkinan konotasi yang kurang ethis di dalam komponen isyarat di daerah tertentu di Indoensia.
+<li>sistem isyarat harus disesuaikan dengan perkembangan kemampuan dan kejiwaan siswa.
+<li>sistem isyarat harus disesuaikan dengan perkembangan bahasa termasuk metodologi pengajaran. Sistem isyarat harus memiliki sejumlah isyarat 
+yang cukup ditinjau dari kebutuhan Kurikulum pendidikan Dasar, fungsi-fungsi social, dan untuk tujuan yang sesuai. Minimal sejumlah 3000 isyarat
+ harus menjadi sasaran. Kemudian perlu dilengkapi dengan suplemen-suplemen bidang khusus seperti bidang matematika, IPA, Teknik dan sebagainya.
+<li>Sistem isyarat harus memperhatikan isyarat  yang sudah ada dan banyak dipergunakan oleh kaum tunarungu Indoensia dan harus dikembangkan melalui
+ konsultasi dengan wakil-wakil dari masyarakat.
+<li>Sistem isyarat harus mudah dipelajari dan digunakan oleh siswa, guru, orang tua murid, dan masyarakat.
+<li>Isyarat yang dirancang harus memiliki kelayakan dalam wujud dan maknanya. Artinya, wujud isyarat harus secara visual memiliki unsur pembeda makna 
+yang jelas, tetapi sederhana dan indah/menarik gerakannya. Makna isyarat harus menunjukkan sifat yang luwes (memiliki kemungkinan untuk dikembangkan), 
+jelas, dan mantap (tidak berubah-ubah artinya).
+<li>Isyarat yang dirancang harus dapat dipakai pada jarak sedekat mungkin dengan mulut pengisyarat dan dengan kecepatan yang mendekati tempo berbicara 
+yang wajar dalam upaya merealisasikan tujuan konsep komunikasi total yaitu keserempakan dalam berisyarat dan berbicara sewaktu berkomunikasi.
+<li>Sistem isyarat harus dituangkan dalam kamus isyarat yang efisien dengan deskripsi dan gambar yang akurat.<ol></p>
+
+    </div>
+    <div data-role="collapsible">
+        <h3>Komponen/ Unsur Pembeda Makna</h3>
+    <p class="text">Sistem isyarat memiliki dua komponen, yang satu berfungsi sebagai penentu atau pembeda makna, sedangkan yang 
+	lain berfungsi sebagai penunjang. Semuanya bersifat visual sehingga dapat dilihat, komponen-komponen tersebut antara lain:</p>
+	I.	Komponen penentu makna
+<ul>a.	Penampil, ialah tangan/bagian tangan yang digunakan untuk membentuk isyarat, antara lain:</p>
+<ol><li>Tangan kanan, tangan kiri, atau kedua tangan
+<li>Telapak tangan dengan jari membuka, menggemgam, atau sebagai jari mencuat.
+<li>Posisi jari tangan merapat atau renggang.
+<li>Posisi jari tangan membentuk angka 1, 2, 3atau angka lain.</ol></ul>
+<ul>b.	Posisi ialah kedudukan tangan atau kedua tangan terhadap pengisyarat pada waktu berisyarat antara lain:
+<ol><li>Tangan kanan atau kiri tegak, condong, mendatar, mengarah ke kanan, ke kiri, ke depan, atau menyerong.
+<li>Tangan kanan atau kiri telentang, telungkup, menghadap ke kanan, ke kiri, ke depan, ke pengisyarat.
+<li>Kedua tangan berdampingan, berjajar, bersilang, atau bersusun.</ol></ul>
+<ul>c.	Tempat ialah bagian badan yang menjadi tempat awal isyarat dibentuk atau arah akhir isyarat antara lain:
+<ol><li>Kepala dengan semua bagiannya, seperti pelipis, dahi, dagu.
+<li>Leher
+<li>Dada kanan, kiri, tengah
+<li>Bahu kanan, kiri, atau keduanya
+<li>Tangan</ol></ul>
+<ul>d.	Arah ialah gerak penampil ketika isyarat dibuat, antara lain:
+<ol><li>Menjauhi atau mendekati pengisyarat
+<li>Ke  samping kanan, kiri, atau bolak balik
+<li>Lurus, melengkung
+<li>Frekuensi ialah jumlah gerak yang dilakukan pada waktu isyarat dibentuk. Ada isyarat yang frekuensinya hanya sekali, ada yang dua kali,
+ atau lebih, ada juga gerakan berupa getaran, yaitu gerakan kecil yang diulang-ulang.</ol></ul>
+II.	Komponen penunjang
+<ol><li>Mimik muka, memberikan makna tambahan/tekanan terhadap pesan isyarat yang disampaikan. 
+Pada umumnya melambangkan kesungguhan atau intensitas pesan yang disampaikan, rasa senang, sedih, atau ceria.
+<li>Gerak tubuh misalnya bahu, memberikan kesan tambahan atas pesan, misalnya isyarat tidak tahu, 
+ditambah naiknya dua bahu diiartikan benar-benar tidak tahu atau tidak tahu sedikit pun.
+<li>Kecepatan gerak, berfungsi sebagai penambah tekanan tempo. Isyarat pergi yang dilakukan dilakukan 
+dengan cepat, dapat diartikan pergilah segera.
+<li>Kelenturan gerak, menandai intensitas makna isyarat yang disampaikan. Isyarat marah yang dilakukan 
+dengan kaku dapat diartikan  sebagai marah sekali. Demikian juga isyarat berat yang dilakukan dengan kaku dapat ditafsirkan sebagai berat sekali.</ol>
+</p>
+  </div>
+  
+  <div data-role="collapsible">
+    <h3> Lingkup Sistem Isyarat</h3>
+	<p class="text">Berdasarkan pembentukannya, isyarat dapat dibagi menjadi tiga macam:<br>
+a.Isyarat pokok, ialah isyarat yang melambangkan sebuah kata atau konsep. Isyarat ini dibentuk dengan berbagai macam penampil, tempat, arah, dan frekuensi sebagaimana telah diuraikan di atas.</ul>
+<br>b.Isyarat tambahan ialah isyarat yang melambangkan awalan, akhiran, dan partikel.
+<ol><li>Isyarat awalan, dibentuk dengan tangan kanan sebagai tempat. Isyarat awalan dibentuk sebelum isyarat pokok. Seluruhnya ada tujuh buah isyarat awalan meliputi awalan ber, me, di, ke, ter, dan se.
+<li>Isyarat akhiran dan partikel, dibentuk dengan tangan kanan sebagai penampil, bertempat di depan dada, dan digerakkan mendatar ke kanan. Isyarat ini terdiri dari isyarat akhiran kan, I, an, dan partikel lah, kah, serta pun.</ol></ul>
+<br>c.	Isyarat bentukan ialah isyarat yang dibentuk dengan menggabungkan isyarat pokok dengan isyarat imbuhan dan dengan menggabungkan dua isyarat pokok atau lebih.</ul>
+<ol><li>	Isyarat yang mendapat awalan dan atau akhiran/partikel, isyarat yang hanya mendapat awalan, hanya akhiran, atau gabungan awalan dan akhiran dibentuk sesuai dengan urutan pembetukannya.
+<li>Isyarat kata ulang
+<p class="text">Kata ulang diisyaratkan dengan mengulang isyarat pokok. Bila frekuensi isyarat pokok lebih dari satu kali, dilakukan perhentian sejenak antara isyarat pokok yang pertama dengan isyarat pokok kedua untuk kata ulang biasa. Sedangkan kata ulang berimbuhan diisyaratkan sesuai dengan urutan pembentukannya. Kata ulang yang tergolong kata ulang semu diisyaratkan sebagai sebuah isyarat pokok.
+<li>Isyarat kata gabung
+<p class="text">Kata gabung diisyaratkan dengan menggabungkan dua isyarat pokok atau lebih sesuai dengan urutan pembentukannya. Berapa kata gabung yang sudah padu benar, ada yang dilambangkan dengan satu isyarat.
+<li>Abjad jari
+<p class="text">Abjad jari adalah isyarat yang dibentuk dengan jari-jari tangan (kanan atau kiri) untuk mengeja huruf dan angka. Bentuk isyarat bagi huruf dan angka di dalam sistem isyarat bahasa Indonesia serupa dengan Internasional Manual Alphabet ( dengan perubahan-perubahan) abjad jari digunakan untuk mengisyaratkan nama diri, mengisyaratkan singkatan atau akronim, mengisyaratkan kata yang belum mempunyai isyarat.
+</p>
+</div>
+
+<div data-role="collapsible">
+    <h3>Penerapan Sistem Isyarat Bahasa Indonesia</h3>
+	<p class="text">Berkomunikasi dengan menggunkan sistem isyarat tidak berbeda dengan berkomunikasi memakai bahasa lisan. Aturan yang berlaku pada bahasa lisan berlaku pula pada sistem isyarat ini.
+<ol><li>	Urutan isyarat menentukan keseluruhan makna pesan yang kita sampaikan. Anjing menggigit kucing berbeda maknanya dengan kucing digigit anjing.
+<li>	Jeda atau penghentian sejenak diisyaratkan dengan penghentian sejenak di antara berbagai isyarat yang dibuat. Misalnya kalimat ibu/ani pergi ke pasar atau ibu ani/pergi ke pasar.
+<li>	Intonasi dilambangkan dengan mimik muka, gerakan bagian tubuh yang lain, kelenturan, dan kecepatan gerak. Misalnya pergi dengan mimik yang wajar dan dengan kecepatan biasa akan berbeda maknanya apanila isyarat pergi tersebut dilakukan dengan mata melotot dengan gerakan yang cepat.
+</p>
+</div>
+
+<div data-role="collapsible">
+    <h3>Tata Makna Dalam Sistem Isyarat Bahasa Indonesia</h3>
+	<p class="text">Makna kata dalam sistem ini pada umumnya dimunculkan dalam konteks atau situasi komunikasi.
+<ol><li>	Kata-kata yang memiliki makna yang sama/sinonim diisyaratkan dengan tempat, arah, dan frekuensi yang sama tetapi dengan penampil yang berbeda.
+<li>	Kata- kata yang sama dengan makna yang berbeda (yang tergolong polisemi) dilambangkan dengan isyarat yang sama.
+<li>	Beberapa kata yang memiliki makna yang berlawanan (tergolong antonym) ada yang diisyartakan dengan penampil dan tempat yang sama, tetapi arah gerakan berlawanan.
+</p>
+</div>
+  </div>
+
+<div data-role="footer" data-theme="f" data-position="fixed">
+
+	<audio id="track" loop autoplay >
+        <source src="Music for reading - Chopin, Beethoven, Mozart, Bach, Debussy, Liszt, Schumann-OUT.mp3"/>
+	</audio> 
+    <div class='unmute'  onclick="document.getElementById('track').muted =!document.getElementById('track').muted;$(this).toggleClass('mute')"></div>
+</div> 
+</div> 
+</div>
+</body>
+</html>

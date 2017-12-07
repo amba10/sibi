@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+<link rel="stylesheet" href="css/style f.css">		
+<link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+	<div data-role="page" id="pageone" data-theme="f">
+		<div data-role="panel" id="myPanel" class="ui-panel ui-panel-f"> 
+		<img src="img/1.png" class="panelimg"/>
+			<ul data-role="listview" data-theme="b" data-inset="true">
+				<li data-icon="home"><a href="index.html" data-iconpos="right" >Beranda</a></li>
+				<li data-inset="true"><a href="sibi.html"  data-iconpos="right" >SIBI</a></li>
+				<li data-role="collapsible" data-iconpos="right" data-inset="false">
+					<h2>Kategori</h2>
+				<ul data-role="listview">
+					<li><a href="abjad.html" >Abjad</a></li>
+					<li><a href="bilangan.html">Bilangan</a></li>
+					<li><a href="kata benda.html">Kata Benda</a></li>
+					<li><a href="kata kerja.html" >Kata Kerja</a></li>
+					<li><a href="Kata Sifat.html" >Kata Sifat</a></li>
+					<li><a href="imbuhan awalan.html" >Imbuhan Awalan</a></li>
+					<li><a href="imbuhan akhiran.html" >Imbuhan Akhiran</a></li>
+				</ul>
+				</li>
+				<li><a href="petunjuk.html"  data-iconpos="right" >Petunjuk</a></li>
+				<li><a href="tentang.html" data-iconpos="right" >Tentang</a></li>
+			</ul>  
+		</div>  
+		<div data-role="header" data-theme="f" >
+			<a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-shadow ui-btn-icon-left ui-icon-bars ui-btn-icon-notext">Open Panel</a>
+			<p class="okta">Kata Sifat</p>
+			<a href="javascript:history.go(-1)" class="ui-btn ui-btn-inline ui-corner-all ui-shadow ui-btn-icon-left ui-icon-back ui-btn-icon-notext">back</a>
+		</div>
+  <div data-role="main" class="ui-content ">
+	<ul data-role="listview" data-filter="true" data-filter-placeholder="cari kata..." data-inset="true" data-theme="a">
+
+    <li><a href="#1" data-rel="popup" data-transition="pop" >Bagus</a></li>
+		<div data-role="popup" data-position-to="window" id="1" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/bagus_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#2" data-rel="popup" data-transition="pop" >Baik</a></li>
+		<div data-role="popup" data-position-to="window" id="2" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/baik_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#3" data-rel="popup" data-transition="pop" >Baru</a></li>
+		<div data-role="popup" data-position-to="window" id="3" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/baru_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#4" data-rel="popup" data-transition="pop" >Benar</a></li>
+		<div data-role="popup" data-position-to="window" id="4" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/benar_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#5" data-rel="popup" data-transition="pop" >Berat</a></li>
+		<div data-role="popup" data-position-to="window" id="5" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/berat_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#6" data-rel="popup" data-transition="pop" >Besar</a></li>
+		<div data-role="popup" data-position-to="window" id="6" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/besar_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#7" data-rel="popup" data-transition="pop" >Bingung</a></li>
+		<div data-role="popup" data-position-to="window" id="7" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/bingung_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#8" data-rel="popup" data-transition="pop" >Bisu</a></li>
+		<div data-role="popup" data-position-to="window" id="8" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/bisu_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#9" data-rel="popup" data-transition="pop" >Cantik</a></li>
+		<div data-role="popup" data-position-to="window" id="9" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/cantik_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#10" data-rel="popup" data-transition="pop" >Cepat</a></li>
+		<div data-role="popup" data-position-to="window" id="10" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/cepat_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+
+	<li><a href="#11" data-rel="popup" data-transition="pop" >Demam</a></li>
+		<div data-role="popup" data-position-to="window" id="11" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/demam_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#12" data-rel="popup" data-transition="pop" >Dingin</a></li>
+		<div data-role="popup" data-position-to="window" id="12" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/dingin_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#13" data-rel="popup" data-transition="pop" >Duka</a></li>
+		<div data-role="popup" data-position-to="window" id="13" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/duka_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#14" data-rel="popup" data-transition="pop" >Gelisah</a></li>
+		<div data-role="popup" data-position-to="window" id="14" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/gelisah_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#15" data-rel="popup" data-transition="pop" >Gembira</a></li>
+		<div data-role="popup" data-position-to="window" id="15" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/gembira_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#16" data-rel="popup" data-transition="pop" >Hangat</a></li>
+		<div data-role="popup" data-position-to="window" id="16" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/hangat_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#17" data-rel="popup" data-transition="pop" >Haus</a></li>
+		<div data-role="popup" data-position-to="window" id="17" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/haus_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#18" data-rel="popup" data-transition="pop" >Iba</a></li>
+		<div data-role="popup" data-position-to="window" id="18" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/iba_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#19" data-rel="popup" data-transition="pop" >Jelek</a></li>
+		<div data-role="popup" data-position-to="window" id="19" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/jelek_sl/.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#20" data-rel="popup" data-transition="pop" >Jenaka</a></li>
+		<div data-role="popup" data-position-to="window" id="20" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/jenaka_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#21" data-rel="popup" data-transition="pop" >Kasar</a></li>
+		<div data-role="popup" data-position-to="window" id="21" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/kasar_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#22" data-rel="popup" data-transition="pop" >Kecil</a></li>
+		<div data-role="popup" data-position-to="window" id="22" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/kecil_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#23" data-rel="popup" data-transition="pop" >Kesal</a></li>
+		<div data-role="popup" data-position-to="window" id="23" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/kesal_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#24" data-rel="popup" data-transition="pop" >Lapar</a></li>
+		<div data-role="popup" data-position-to="window" id="24" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/lapar_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#25" data-rel="popup" data-transition="pop" >Lawak</a></li>
+		<div data-role="popup" data-position-to="window" id="25" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/lawak_sl.mp4" type="video/mp4">
+			</video>
+		</div>	
+	<li><a href="#26" data-rel="popup" data-transition="pop" >Lebar</a></li>
+		<div data-role="popup" data-position-to="window" id="26" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/lebar_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#27" data-rel="popup" data-transition="pop" >Lebih</a></li>
+		<div data-role="popup" data-position-to="window" id="27" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/lebih_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#28" data-rel="popup" data-transition="pop" >Lemah</a></li>
+		<div data-role="popup" data-position-to="window" id="28" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/lemah_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#29" data-rel="popup" data-transition="pop" >Lembut</a></li>
+		<div data-role="popup" data-position-to="window" id="29" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/lembut_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#30" data-rel="popup" data-transition="pop" >Lengkap</a></li>
+		<div data-role="popup" data-position-to="window" id="30" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/lengkap_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#31" data-rel="popup" data-transition="pop" >Malas</a></li>
+		<div data-role="popup" data-position-to="window" id="31" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/malas_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#32" data-rel="popup" data-transition="pop" >Mancung</a></li>
+		<div data-role="popup" data-position-to="window" id="32" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/mancung_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#33" data-rel="popup" data-transition="pop" >Marah</a></li>
+		<div data-role="popup" data-position-to="window" id="33" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/marah_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#34" data-rel="popup" data-transition="pop" >Mual</a></li>
+		<div data-role="popup" data-position-to="window" id="34" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/mual_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#35" data-rel="popup" data-transition="pop" >Mudah</a></li>
+		<div data-role="popup" data-position-to="window" id="35" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/mudah_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#36" data-rel="popup" data-transition="pop" >Panas</a></li>
+		<div data-role="popup" data-position-to="window" id="36" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/panas_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#37" data-rel="popup" data-transition="pop" >Pandai</a></li>
+		<div data-role="popup" data-position-to="window" id="37" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/pandai_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#38" data-rel="popup" data-transition="pop" >Panjang</a></li>
+		<div data-role="popup" data-position-to="window" id="38" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/panjang_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#39" data-rel="popup" data-transition="pop" >Patah</a></li>
+		<div data-role="popup" data-position-to="window" id="39" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/patah_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#40" data-rel="popup" data-transition="pop" >Pendek</a></li>
+		<div data-role="popup" data-position-to="window" id="40" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/pendek_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#41" data-rel="popup" data-transition="pop" >Puas</a></li>
+		<div data-role="popup" data-position-to="window" id="41" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/puas_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#42" data-rel="popup" data-transition="pop" >Pucat</a></li>
+		<div data-role="popup" data-position-to="window" id="42" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/pucat_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#43" data-rel="popup" data-transition="pop" >Pusing</a></li>
+		<div data-role="popup" data-position-to="window" id="43" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/pusing_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#44" data-rel="popup" data-transition="pop" >Rapi</a></li>
+		<div data-role="popup" data-position-to="window" id="44" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/rapi_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#45" data-rel="popup" data-transition="pop" >Rendah</a></li>
+		<div data-role="popup" data-position-to="window" id="45" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/rendah_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#46" data-rel="popup" data-transition="pop" >Rindang</a></li>
+		<div data-role="popup" data-position-to="window" id="46" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/rindang_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#47" data-rel="popup" data-transition="pop" >Rindu</a></li>
+		<div data-role="popup" data-position-to="window" id="47" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/rindu_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#48" data-rel="popup" data-transition="pop" >Ringan</a></li>
+		<div data-role="popup" data-position-to="window" id="48" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/ringan_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#49" data-rel="popup" data-transition="pop" >Sabar</a></li>
+		<div data-role="popup" data-position-to="window" id="49" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/sabar_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#50" data-rel="popup" data-transition="pop" >Sakit</a></li>
+		<div data-role="popup" data-position-to="window" id="50" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/sakit_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#51" data-rel="popup" data-transition="pop" >Salah</a></li>
+		<div data-role="popup" data-position-to="window" id="51" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/salah_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#52" data-rel="popup" data-transition="pop" >Sama</a></li>
+		<div data-role="popup" data-position-to="window" id="52" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/sama_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#53" data-rel="popup" data-transition="pop" >Sehat</a></li>
+		<div data-role="popup" data-position-to="window" id="53" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/sehat_sl.mp4" type="video/mp4">
+			</video>
+		</div>	
+	<li><a href="#54" data-rel="popup" data-transition="pop" >Selamat</a></li>
+		<div data-role="popup" data-position-to="window" id="54" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/selamat_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#55" data-rel="popup" data-transition="pop" >Senang</a></li>
+		<div data-role="popup" data-position-to="window" id="55" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/senang_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#56" data-rel="popup" data-transition="pop" >Sendiri</a></li>
+		<div data-role="popup" data-position-to="window" id="56" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/sendiri_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#57" data-rel="popup" data-transition="pop" >Sibuk</a></li>
+		<div data-role="popup" data-position-to="window" id="57" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/sibuk_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#58" data-rel="popup" data-transition="pop" >Sopan</a></li>
+		<div data-role="popup" data-position-to="window" id="58" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/sopan_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#59" data-rel="popup" data-transition="pop" >Suka</a></li>
+		<div data-role="popup" data-position-to="window" id="59" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/suka_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#60" data-rel="popup" data-transition="pop" >Susah</a></li>
+		<div data-role="popup" data-position-to="window" id="60" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/susah_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#61" data-rel="popup" data-transition="pop" >Takut</a></li>
+		<div data-role="popup" data-position-to="window" id="61" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/takut_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#62" data-rel="popup" data-transition="pop" >Tenang</a></li>
+		<div data-role="popup" data-position-to="window" id="62" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/tenang_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	<li><a href="#63" data-rel="popup" data-transition="pop" >Timbang</a></li>
+		<div data-role="popup" data-position-to="window" id="63" style="position: fixed; left: 50%; top: 50%; transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);">
+			<video width="block"  controls>
+				<source src="video/Kata Sifat/timbang_sl.mp4" type="video/mp4">
+			</video>
+		</div>
+	</ul>
+	</div>
+	</div>
+	</body>
+	</html>
